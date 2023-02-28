@@ -1,0 +1,81 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+.block_note{
+
+    width: 700px;
+    min-height: 550px;
+    border: 2px solid #000;
+    background-image: url("/public/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+
+}
+.block_note_text{
+
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.block_note_text1{
+
+    margin-top: 400px;
+    display: none;
+
+}
+.block_note_text textarea {
+
+    width: 500px;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    
+    
+}
+.noteInfoText h5{
+
+    color: #fff;
+    font-size: 18px;
+
+}
+
+.noteInfoText h5{
+
+    color: #fff;
+
+}
+
+.block_btn{
+
+    margin-top: 20px;
+
+}
+.block_btn button{
+
+    width: 200px;
+    height: 45px;
+    background-color: #fff;
+    color: #000;
+    font-size: 18px;
+}
